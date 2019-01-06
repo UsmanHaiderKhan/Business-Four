@@ -66,8 +66,7 @@ body {
 
 #home {
     background-image: url('../../Images/main-banner.png');
-    background-size: cover;
-    position: relative;
+       position: relative;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -931,7 +930,7 @@ body {
         font-size: 14px;
     }
     .portfolio-section {
-        width: 48%;
+        width: 99%;
         float: left;
         padding: 0;
         position: relative;
@@ -1038,7 +1037,13 @@ body {
     .slider-desc {
         font-size: 14px;
     }
-
+ .portfolio-section {
+        width: 99%;
+        float: left;
+        padding: 0;
+        position: relative;
+        text-align:center;
+    }
     .mt-165 {
         margin-top: 70px;
     }
@@ -1146,7 +1151,13 @@ body {
     .slider-desc {
         font-size: 14px;
     }
-
+ .portfolio-section {
+        width: 99%;
+        float: left;
+        padding: 0;
+        position: relative;
+        text-align:center;
+    }
     .mt-165 {
         margin-top: 70px;
     }
@@ -1248,7 +1259,13 @@ body {
     .slider-desc {
         font-size: 14px;
     }
-
+ .portfolio-section {
+        width: 98%;
+        float: left;
+        padding: 0;
+        position: relative;
+        text-align:center;
+    }
     .mt-165 {
         margin-top: 70px;
     }
@@ -1462,25 +1479,52 @@ body {
         padding-bottom: 0rem !important;
         padding-left: 0rem !important;
     }
-
+ .portfolio-section {
+     width: 33%;
+     float: left;
+     padding: 0;
+     position: relative;
+     
+ }
 }
 
 @media screen and (max-width: 740px) and (orientation: landscape) {
     .mt-165 {
         margin-top: 70px;
     }
+     .portfolio-section {
+         width: 33%;
+         float: left;
+         padding: 0;
+         position: relative;
+         text-align:center;
+     }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
     .mt-165 {
         margin-top: 70px;
     }
+      .portfolio-section {
+         width: 33%;
+         float: left;
+         padding: 0;
+         position: relative;
+         text-align:center;
+     }
 }
 
 @media screen and (max-width: 731px) and (orientation: landscape) {
     .mt-165 {
         margin-top: 70px;
     }
+     .portfolio-section {
+         width: 32%;
+         float: left;
+         padding: 0;
+         position: relative;
+         text-align: center;
+     }
 }
 
 @media screen and (max-width: 667px) and (orientation: landscape) {
