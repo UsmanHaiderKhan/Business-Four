@@ -796,12 +796,12 @@ body {
     color: white;
 } */
 
-.portfolio-section {
+/* .portfolio-section {
     width: 32%;
     float: left;
     padding: 0;
     position: relative;
-}
+} */
 
 /*================== Service Section Styling =================*/
 
@@ -822,6 +822,13 @@ body {
         font-size: 14px;
     }
 
+.portfolio-section {
+    width: 48%;
+    float: left;
+    padding: 0;
+    position: relative;
+    text-align:center;
+}
     .mt-165 {
         margin-top: 70px;
     }
@@ -923,7 +930,13 @@ body {
     .slider-desc {
         font-size: 14px;
     }
-
+    .portfolio-section {
+        width: 48%;
+        float: left;
+        padding: 0;
+        position: relative;
+        text-align:center;
+    }
     .mt-165 {
         margin-top: 70px;
     }
