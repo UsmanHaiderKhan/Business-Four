@@ -35,7 +35,7 @@ body {
     scroll-behavior: smooth;
 }
 
-.bg-color {
+.pt .bg-color {
     background-color: #f6f6f6;
     width: 100%;
     height: auto;
@@ -66,7 +66,7 @@ body {
 
 #home {
     background-image: url('../../Images/main-banner.png');
-       position: relative;
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -160,6 +160,7 @@ body {
     font-family: 'TimesNewRomB';
     font-weight: 400;
     font-size: 30px;
+    text-transform:capitalize;
 }
 
 .btn-read {
@@ -200,6 +201,11 @@ body {
     left: 44%;
 }
 
+.card-shadow {
+    -webkit-box-shadow: 10px 13px 24px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 13px 24px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 13px 24px -13px rgba(0, 0, 0, 0.75);
+}
 
 /*=================== Services Section Styling ===================*/
 .mt-200 {
@@ -420,6 +426,10 @@ body {
     padding-top: 75px;
 }
 
+.pt-45 {
+    padding-top: 45px;
+}
+
 /*=================== BRAND Section Styling =================*/
 .bg-img {
     background-image: url('../../Images/chup.png');
@@ -518,15 +528,23 @@ body {
 
 .get-font {
     color: white;
-    font-weight: 900;
-    font-size: 53px;
+    font-weight: 400;
+    font-size: 54px;
     font-family: 'Bree Serif', serif;
 
 }
 
+.btn-focus {
+    box-shadow: none;
+}
+
+.btn-r-0 {
+    border-radius: 0px;
+}
+
 .get-desc {
     color: white;
-    font-weight: 900;
+    font-weight: 400;
     font-size: 20px;
     font-family: 'Muli', sans-serif;
 }
@@ -540,7 +558,16 @@ body {
     text-transform: uppercase;
 }
 
+
+
 /* =================== Portfolio Section Styling ================== */
+.bg-right {
+    background-size: cover;
+    background-image: "/../../";
+    background-position: "center";
+    background-repeat: "no-repeat";
+}
+
 .box {
     position: relative;
     width: 100%;
@@ -607,6 +634,24 @@ body {
     width: 100%;
 }
 
+.btn-load-more {
+    font-size: 14px;
+    color: #fff;
+    background-color: #0bb5a3;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    width: 256px;
+    height: 70px;
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
 /*======= finish =======*/
 .none-style:hover {
     text-decoration: none;
@@ -651,6 +696,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 80px 0px;
 }
 
 .expert-font {
@@ -675,6 +721,10 @@ body {
     background-color: white;
     color: #0bb5a3;
     border-radius: 23px;
+      font-family: 'Montserrat',
+      sans-serif;
+      font-weight:bold;
+
 }
 
 
@@ -821,13 +871,14 @@ body {
         font-size: 14px;
     }
 
-.portfolio-section {
-    width: 48%;
-    float: left;
-    padding: 0;
-    position: relative;
-    text-align:center;
-}
+    .portfolio-section {
+        width: 48%;
+        float: left;
+        padding: 0;
+        position: relative;
+        text-align: center;
+    }
+
     .mt-165 {
         margin-top: 70px;
     }
@@ -929,13 +980,15 @@ body {
     .slider-desc {
         font-size: 14px;
     }
+
     .portfolio-section {
         width: 99%;
         float: left;
         padding: 0;
         position: relative;
-        text-align:center;
+        text-align: center;
     }
+
     .mt-165 {
         margin-top: 70px;
     }
@@ -1037,13 +1090,15 @@ body {
     .slider-desc {
         font-size: 14px;
     }
- .portfolio-section {
+
+    .portfolio-section {
         width: 99%;
         float: left;
         padding: 0;
         position: relative;
-        text-align:center;
+        text-align: center;
     }
+
     .mt-165 {
         margin-top: 70px;
     }
@@ -1151,13 +1206,15 @@ body {
     .slider-desc {
         font-size: 14px;
     }
- .portfolio-section {
+
+    .portfolio-section {
         width: 99%;
         float: left;
         padding: 0;
         position: relative;
-        text-align:center;
+        text-align: center;
     }
+
     .mt-165 {
         margin-top: 70px;
     }
@@ -1259,13 +1316,15 @@ body {
     .slider-desc {
         font-size: 14px;
     }
- .portfolio-section {
+
+    .portfolio-section {
         width: 98%;
         float: left;
         padding: 0;
         position: relative;
-        text-align:center;
+        text-align: center;
     }
+
     .mt-165 {
         margin-top: 70px;
     }
@@ -1479,52 +1538,56 @@ body {
         padding-bottom: 0rem !important;
         padding-left: 0rem !important;
     }
- .portfolio-section {
-     width: 33%;
-     float: left;
-     padding: 0;
-     position: relative;
-     
- }
+
+    .portfolio-section {
+        width: 33%;
+        float: left;
+        padding: 0;
+        position: relative;
+
+    }
 }
 
 @media screen and (max-width: 740px) and (orientation: landscape) {
     .mt-165 {
         margin-top: 70px;
     }
-     .portfolio-section {
-         width: 33%;
-         float: left;
-         padding: 0;
-         position: relative;
-         text-align:center;
-     }
+
+    .portfolio-section {
+        width: 33%;
+        float: left;
+        padding: 0;
+        position: relative;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
     .mt-165 {
         margin-top: 70px;
     }
-      .portfolio-section {
-         width: 33%;
-         float: left;
-         padding: 0;
-         position: relative;
-         text-align:center;
-     }
+
+    .portfolio-section {
+        width: 33%;
+        float: left;
+        padding: 0;
+        position: relative;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 731px) and (orientation: landscape) {
     .mt-165 {
         margin-top: 70px;
     }
-     .portfolio-section {
-         width: 32%;
-         float: left;
-         padding: 0;
-         position: relative;
-         text-align: center;
-     }
+
+    .portfolio-section {
+        width: 32%;
+        float: left;
+        padding: 0;
+        position: relative;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 667px) and (orientation: landscape) {
