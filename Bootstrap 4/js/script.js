@@ -51,7 +51,7 @@ $(function () {
             var show_content = content.substr(0, showChar);
             var hide_content = content.substr(showChar, content.length - showChar);
             var html = show_content + '<span class="remaining-content"><span>' + hide_content +
-                '</span><a href="" class="morelinks btn btn-read mt-41" style="display:block">' + moretext + '</a>' +
+                '</span><a href="" class="morelinks btn btn-read mt-41" style="display:block;font-size:17px">' + moretext + '</a>' +
                 '</span>';
             $(this).html(html);
         }
@@ -81,7 +81,7 @@ $(function () {
             var show_content = content.substr(0, showChar);
             var hide_content = content.substr(showChar, content.length - showChar);
             var html = show_content + '<span class="remaining-content"><span>' + hide_content +
-                '</span><a href="" class="morelink btn btn-read arrow-outline link-style  mt-155" style="display:block;">' + moretext + '</a>' +
+                '</span><a href="" class="morelink btn btn-reads arrow-outline link-style  mt-155" style="display:block;margin-left:-47px;font-size:17px">' + moretext + '</a>' +
                 '</span> ' + '';
             $(this).html(html);
         }
