@@ -34,21 +34,16 @@ body {
     padding: 0px;
     scroll-behavior: smooth;
 }
-
+.card{
+    border:0;
+}
 .pt .bg-color {
     background-color: #f6f6f6;
     width: 100%;
     height: auto;
 }
-
-.logo-font {
-    font-family: 'Industry-Bold';
-    font-size: 36px
-}
-
-.logo-font-2 {
-    font-family: 'Industry-Light';
-    font-size: 36px
+.nav-trans{
+    transition:padding 400ms linear;
 }
 
 .nav-setting {
@@ -132,8 +127,9 @@ body {
     font-size: 52px;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1;
+    line-height: 1.2;
     color: #ffffff;
+
 
 }
 
@@ -160,16 +156,31 @@ body {
     font-family: 'TimesNewRomB';
     font-weight: 400;
     font-size: 30px;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
 
 .btn-read {
     background-color: #ffffff;
-    ;
     color: #757575;
-    width: 170px;
-    height: 43px;
-    border-radius: 23px;
+    width: 231px;
+    height: 58px;
+    border-radius: 33px;
+    padding:15px 0 0 0;
+}
+.btn-reads {
+    background-color: #ffffff;
+    color: #757575;
+    width: 231px;
+    height: 58px;
+    border-radius: 33px;
+    padding:15px 0 0 0;
+}
+.btn-reads:hover{
+    color:#0bb5a3;
+}
+.btn-read:hover{
+    color:#fff;
+    background-color:#0bb5a3;
 }
 
 
@@ -459,16 +470,13 @@ body {
     font-weight: 700;
 }
 
-/* .card-body {
-    padding: 1rem;
-} */
-
 .service-bg {
     background-image: url('../../Images/services/service-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    padding: 120px
 }
 
 .service-font {
@@ -488,14 +496,16 @@ body {
 }
 
 .sec-font {
-    font-family: 'Muli', sans-serif;
+    
+     font-family: 'Montserrat',
+   sans-serif;
     font-size: 18px;
     color: black;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .sec-desc {
-    font-family: 'MyriadPro-BlackSemiCn';
+  font-family: 'Muli', sans-serif;
     font-size: 16px;
     color: #757575;
     font-weight: 100;
@@ -534,12 +544,13 @@ body {
 
 }
 
-.btn-focus {
-    box-shadow: none;
+.btn:focus, .btn.focus {
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .btn-r-0 {
-    border-radius: 0px;
+    border-radius: 0px !important;
 }
 
 .get-desc {
@@ -587,9 +598,14 @@ body {
 
 .my-pill {
     background-color: #EBEBEB;
-    width: 120px;
+    width: 182px;
     height: 55px;
     border-radius: 3px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight:600;
+   font-size:15px;
+   color:#333333;
+
 }
 
 .overlay {
@@ -696,7 +712,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 80px 0px;
+    padding: 91px 0px;
 }
 
 .expert-font {
@@ -721,12 +737,17 @@ body {
     background-color: white;
     color: #0bb5a3;
     border-radius: 23px;
-      font-family: 'Montserrat',
-      sans-serif;
-      font-weight:bold;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: bold;
+    line-height: 15px;
 
 }
-
+.text-font-exe{
+    color: #777777;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+}
 
 
 #touch {
@@ -765,7 +786,9 @@ body {
     background-color: #51555d;
     border: none;
 }
-
+:focus{
+    outline:none !important;
+}
 ::placeholder {
     color: #a2a4a9;
 }
@@ -775,6 +798,7 @@ body {
     height: 50px;
     color: white;
     background-color: #0bb5a3 !important;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -1090,7 +1114,9 @@ body {
     .slider-desc {
         font-size: 14px;
     }
-
+.service-bg {
+    padding: 0px;
+}
     .portfolio-section {
         width: 99%;
         float: left;
@@ -1195,18 +1221,21 @@ body {
         padding-left: 0rem !important;
     }
 
-    .btn-read {
-        width: 118px;
-        height: 32px;
+    /* .btn-read {
+        width: 150px;
+        height: 45px;
         font-size: 10px;
-    }
+        line-height:15px;
+    } */
 }
 
 @media screen and (max-width: 375px) {
     .slider-desc {
         font-size: 14px;
     }
-
+.service-bg {
+    padding: 0px;
+}
     .portfolio-section {
         width: 99%;
         float: left;
@@ -1316,7 +1345,7 @@ body {
     .slider-desc {
         font-size: 14px;
     }
-
+.service-bg{padding:0px;}
     .portfolio-section {
         width: 98%;
         float: left;
@@ -1324,7 +1353,9 @@ body {
         position: relative;
         text-align: center;
     }
-
+    .md-text-align-center{
+        text-align:center;
+    }
     .mt-165 {
         margin-top: 70px;
     }
@@ -1443,6 +1474,10 @@ body {
         margin-top: 70px;
     }
 
+    .filterDiv {
+        width: 31%;
+    }
+
     .slider-desc {
         font-size: 14px;
     }
@@ -1540,7 +1575,7 @@ body {
     }
 
     .portfolio-section {
-        width: 33%;
+        width: 31%;
         float: left;
         padding: 0;
         position: relative;
