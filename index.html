@@ -23,7 +23,7 @@
 
 <body>
   <section id="home">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top pt-45">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top pt-45 nav-trans">
       <div class="container nav-setting">
         <a class="navbar-brand" href="index.html">
           <img src="Images/logo.png" alt="Alternate Text" />
@@ -177,7 +177,7 @@
       <div class="row">
         <div class="col-md-8 offset-md-2">
           <h2 class="text-center text-uppercase service-font">Our Services</h2>
-          <p class="text-center mt-36">
+          <p class="text-center mt-36 text-font-exe">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem beatae incidunt quos excepturi accusantium
             expedita,
           </p>
@@ -264,7 +264,7 @@
       </div>
     </div>
     </section>
-    <section id="get">
+    <section id="get" class="mt-100 media-mt-30">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
@@ -301,9 +301,9 @@
       <div class="container">
         <div class="row mt-50 media-mt-30">
           <div class="col-md-12 d-flex flex-wrap justify-content-center galleryFilters">
-            <div class="mt-4 list-inline" id="myBtnContainer">
+            <div class="mt-4 list-inline md-text-align-center" id="myBtnContainer">
               <button class="btn-r-0 btn-act btn my-pill active" onclick="filterSelection('all')"> ALL</button>
-              <button class="btn-r-0 btn-act btn my-pill" onclick="filterSelection('creative')"> CREATIVE</button>
+              <button class="btn-r-0 btn-act btn my-pill media-mt" onclick="filterSelection('creative')"> CREATIVE</button>
               <button class="btn-r-0 btn-act btn my-pill media-mt" onclick="filterSelection('business')"> BUSINESS</button>
               <button class="btn-r-0 btn-act btn my-pill media-mt" onclick="filterSelection('branding')"> BRANDING</button>
             </div>
@@ -413,7 +413,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 offset-md-1">
-            <h2 class="expert-font mt-90 text-center">expert are behind every thing we do</h2>
+            <h2 class="expert-font text-center">expert are behind every thing we do</h2>
             <p class="expert-desc text-center mt-35">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ullam laborum beatae necessitatibus
               architecto ipsam qui temporibus autem vitae neque velit aliquam, cum, aspernatur perferendis nemo quam
@@ -431,31 +431,29 @@
         <div class="row">
           <div class="col-md-8 offset-md-2">
             <h2 class="text-center text-uppercase service-font mt-110 media-mt-50">Exclusive Partners</h2>
-            <p class="text-center mt-36">
+            <p class="text-center mt-36 text-font-exe">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem beatae incidunt quos excepturi accusantium
               expedita,
             </p>
           </div>
         </div>
-        <div class="row mt-83 media-mt-20 justify-content-center">
-          <div class="col-md-2 text-center media-mt-50">
-            <img src="Images/client/c1.png" alt="" class="img-fluid mt-4">
+        <div class="owl-carousel mt-100">
+          <div>
+            <img src="Images/client/c1.png" alt="" class="img-fluid">
           </div>
-          <div class="col-md-2 text-center  media-mt-50">
-            <img src="Images/client/c2.png" alt="" class="img-fluid mt-4">
+          <div>
+            <img src="Images/client/c2.png" alt="" class="img-fluid">
           </div>
-          <div class="col-md-2 text-center  media-mt-50">
-            <img src="Images/client/c3.png" alt="" class="img-fluid mt-4">
+          <div>
+            <img src="Images/client/c3.png" alt="" class="img-fluid">
           </div>
-          <div class="col-md-2 text-center media-mt-50">
+          <div>
             <img src="Images/client/c4.png" alt="" class="img-fluid">
           </div>
-          <div class="col-md-2 text-center media-mt-50">
-            <img src="Images/client/c5.png" alt="" class="img-fluid mt-3">
+          <div>
+            <img src="Images/client/c5.png" alt="" class="img-fluid">
           </div>
-          <div class="col-md-2 text-center media-mt-50">
-            <img src="Images/client/c6.png" alt="" class="img-fluid">
-          </div>
+
         </div>
       </div>
       <div class="pt-212 media-pt-90"></div>
@@ -540,6 +538,27 @@
     <script src="Bootstrap 4/js/smoothscroll.js"></script>
     <!-- Custome Script File -->
     <script src="Bootstrap 4/js/script.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 20,
+          nav: true,
+          autoplay: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 3
+            },
+            1000: {
+              items: 5
+            }
+          }
+        });
+      });
+    </script>
 </body>
 
 </html>
