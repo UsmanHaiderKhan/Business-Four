@@ -34,16 +34,19 @@ body {
     padding: 0px;
     scroll-behavior: smooth;
 }
-.card{
-    border:0;
+
+.card {
+    border: 0;
 }
+
 .pt .bg-color {
     background-color: #f6f6f6;
     width: 100%;
     height: auto;
 }
-.nav-trans{
-    transition:padding 400ms linear;
+
+.nav-trans {
+    transition: padding 400ms linear;
 }
 
 .nav-setting {
@@ -60,7 +63,6 @@ body {
 
 
 #home {
-    background-image: url('../../Images/main-banner.png');
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -124,7 +126,7 @@ body {
 }
 
 .mainheading {
-    font-size: 52px;
+    font-size: 50px;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
@@ -165,22 +167,25 @@ body {
     width: 231px;
     height: 58px;
     border-radius: 33px;
-    padding:15px 0 0 0;
+    padding: 15px 0 0 0;
 }
+
 .btn-reads {
     background-color: #ffffff;
     color: #757575;
     width: 231px;
     height: 58px;
     border-radius: 33px;
-    padding:15px 0 0 0;
+    padding: 15px 0 0 0;
 }
-.btn-reads:hover{
-    color:#0bb5a3;
+
+.btn-reads:hover {
+    color: #0bb5a3;
 }
-.btn-read:hover{
-    color:#fff;
-    background-color:#0bb5a3;
+
+.btn-read:hover {
+    color: #fff;
+    background-color: #0bb5a3;
 }
 
 
@@ -496,16 +501,16 @@ body {
 }
 
 .sec-font {
-    
-     font-family: 'Montserrat',
-   sans-serif;
+
+    font-family: 'Montserrat',
+        sans-serif;
     font-size: 18px;
     color: black;
     font-weight: bold;
 }
 
 .sec-desc {
-  font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-size: 16px;
     color: #757575;
     font-weight: 100;
@@ -530,7 +535,7 @@ body {
 
 /*what we get */
 #get {
-    background-image: url('../../Images/banner.png');
+    padding: 100px 0 0 0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -544,7 +549,8 @@ body {
 
 }
 
-.btn:focus, .btn.focus {
+.btn:focus,
+.btn.focus {
     outline: none !important;
     box-shadow: none !important;
 }
@@ -572,9 +578,8 @@ body {
 
 
 /* =================== Portfolio Section Styling ================== */
-.bg-right {
+#portfolio {
     background-size: cover;
-    background-image: "/../../";
     background-position: "center";
     background-repeat: "no-repeat";
 }
@@ -584,27 +589,22 @@ body {
     width: 100%;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link:active {
-    color: white !important;
-    background-color: #129b8d !important;
-}
-
-.list-inline .btn.active,
-.btn:active {
+#portfolio .active {
     background-color: #129b8d !important;
     color: white !important;
 }
 
 .my-pill {
-    background-color: #EBEBEB;
+    background-color: #e6e5e5;
     width: 182px;
+    margin: 4px;
     height: 55px;
+    text-transform: uppercase;
     border-radius: 3px;
-   font-family: 'Open Sans', sans-serif;
-   font-weight:600;
-   font-size:15px;
-   color:#333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #333333;
 
 }
 
@@ -667,6 +667,8 @@ body {
     font-size: 18px;
 
 }
+
+
 
 /*======= finish =======*/
 .none-style:hover {
@@ -743,7 +745,8 @@ body {
     line-height: 15px;
 
 }
-.text-font-exe{
+
+.text-font-exe {
     color: #777777;
     font-size: 18px;
     font-family: 'Muli', sans-serif;
@@ -786,9 +789,11 @@ body {
     background-color: #51555d;
     border: none;
 }
-:focus{
-    outline:none !important;
+
+:focus {
+    outline: none !important;
 }
+
 ::placeholder {
     color: #a2a4a9;
 }
@@ -830,51 +835,92 @@ body {
 }
 
 /* ========================== */
-
-.filterDiv {
-    float: left;
-    color: #ffffff;
-    width: 32%;
-    height: auto;
-    text-align: center;
-    display: none;
-    margin: 5px;
+/* Center website */
+.main {
+    max-width: 1140px;
+    margin: auto;
 }
 
+.rows {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.rows,
+.rows>.column {
+    padding: 5px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33% !important;
+    display: none;
+    /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The "show" class is added to the filtered elements */
 .show {
     display: block;
 }
+
+
+#myBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .my-container {
     margin-top: 40px;
     overflow: hidden;
 }
 
-/* Style the buttons */
-/* .btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: #f1f1f1;
-    cursor: pointer;
+.slider-img {
+    height: 100%;
+    object-fit: contain;
+
 }
 
-.btn:hover {
-    background-color: #0bb5a3;
-    color: white;
+#card_section .comments-spaces {
+    height: 396px;
+    overflow: auto;
 }
 
-.btn.active {
-    background-color: #0bb5a3;
-    color: white;
-} */
+.card-height {
+    height: 73vh;
+}
 
-/* .portfolio-section {
-    width: 32%;
-    float: left;
-    padding: 0;
-    position: relative;
-} */
+/* width */
+#card_section .comments-spaces::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+#card_section .comments-spaces::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #161618;
+    border-radius: 20px;
+}
+
+/* Handle */
+#card_section .comments-spaces::-webkit-scrollbar-thumb {
+    background: #161618;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+#card_section .comments-spaces::-webkit-scrollbar-thumb:hover {
+    background: #161618;
+}
+
 
 /*================== Service Section Styling =================*/
 
@@ -1114,9 +1160,11 @@ body {
     .slider-desc {
         font-size: 14px;
     }
-.service-bg {
-    padding: 0px;
-}
+
+    .service-bg {
+        padding: 0px;
+    }
+
     .portfolio-section {
         width: 99%;
         float: left;
@@ -1233,9 +1281,11 @@ body {
     .slider-desc {
         font-size: 14px;
     }
-.service-bg {
-    padding: 0px;
-}
+
+    .service-bg {
+        padding: 0px;
+    }
+
     .portfolio-section {
         width: 99%;
         float: left;
@@ -1345,7 +1395,11 @@ body {
     .slider-desc {
         font-size: 14px;
     }
-.service-bg{padding:0px;}
+
+    .service-bg {
+        padding: 0px;
+    }
+
     .portfolio-section {
         width: 98%;
         float: left;
@@ -1353,9 +1407,11 @@ body {
         position: relative;
         text-align: center;
     }
-    .md-text-align-center{
-        text-align:center;
+
+    .md-text-align-center {
+        text-align: center;
     }
+
     .mt-165 {
         margin-top: 70px;
     }
