@@ -72,7 +72,7 @@ $(function () {
     });
 });
 $(function () {
-    var showChar = 200;
+    var showChar = 180;
     var moretext = `Read more &nbsp; <i class='fa fa-arrow-right'></i>`;
     var lesstext = `Read less &nbsp; <i class='fa fa-arrow-left'></i>`;
     $('.comments-spaces').each(function () {
@@ -81,7 +81,7 @@ $(function () {
             var show_content = content.substr(0, showChar);
             var hide_content = content.substr(showChar, content.length - showChar);
             var html = show_content + '<span class="remaining-content"><span>' + hide_content +
-                '</span><a href="" class="morelink btn btn-reads arrow-outline mb-5 link-style  mt-140" style="display:block;margin-left:-47px;font-size:17px">' + moretext + '</a>' +
+                '</span><a href="" class="morelink btn btn-reads link-style mb-4 mt-140" style="padding-right:0;display:block;margin-left:-47px;font-size:17px">' + moretext + '</a>' +
                 '</span> ' + '';
             $(this).html(html);
         }

@@ -1,4 +1,5 @@
 ﻿/*====================== Font Families =======================*/
+
 @font-face {
     font-family: 'TimesNewRomB';
     src: url('../../Fonts/TimesNewRomB.ttf') format('opentype');
@@ -28,6 +29,7 @@
 }
 
 /*=================== Header Section Styling ===================*/
+
 html,
 body {
     margin: 0px;
@@ -60,7 +62,6 @@ body {
     font-weight: 400;
     color: #ffffff;
 }
-
 
 #home {
     position: relative;
@@ -131,8 +132,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
     color: #ffffff;
-
-
 }
 
 #home .banner-btn {
@@ -188,7 +187,6 @@ body {
     background-color: #0bb5a3;
 }
 
-
 #home .button_design_1:hover {
     background-color: #ffffff;
     color: #232626;
@@ -218,12 +216,13 @@ body {
 }
 
 .card-shadow {
-    -webkit-box-shadow: 10px 13px 24px -13px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 13px 24px -13px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 13px 24px -13px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 13px 20px 24px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 20px 24px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 13px 20px 24px -13px rgba(0, 0, 0, 0.75);
 }
 
 /*=================== Services Section Styling ===================*/
+
 .mt-200 {
     margin-top: 200px;
 }
@@ -291,7 +290,6 @@ body {
 .mt-90 {
     margin-top: 90px;
 }
-
 
 .mt-88 {
     margin-top: 88px;
@@ -390,6 +388,7 @@ body {
 }
 
 /*=========== Margin Bottom ===========*/
+
 .mb-100 {
     margin-bottom: 100px;
 }
@@ -447,6 +446,7 @@ body {
 }
 
 /*=================== BRAND Section Styling =================*/
+
 .bg-img {
     background-image: url('../../Images/chup.png');
     background-size: cover;
@@ -465,7 +465,6 @@ body {
     color: white;
     font-size: 17px;
     font-family: 'Muli', sans-serif;
-
 }
 
 .head-text {
@@ -488,7 +487,6 @@ body {
     font-size: 48px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-
 }
 
 .remaining-content span {
@@ -501,9 +499,7 @@ body {
 }
 
 .sec-font {
-
-    font-family: 'Montserrat',
-        sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: black;
     font-weight: bold;
@@ -515,7 +511,6 @@ body {
     color: #757575;
     font-weight: 100;
 }
-
 
 .ser-font {
     font-size: 21px;
@@ -531,9 +526,8 @@ body {
     color: #757575;
 }
 
-
-
 /*what we get */
+
 #get {
     padding: 100px 0 0 0;
     background-size: cover;
@@ -546,7 +540,6 @@ body {
     font-weight: 400;
     font-size: 54px;
     font-family: 'Bree Serif', serif;
-
 }
 
 .btn:focus,
@@ -575,9 +568,8 @@ body {
     text-transform: uppercase;
 }
 
-
-
 /* =================== Portfolio Section Styling ================== */
+
 #portfolio {
     background-size: cover;
     background-position: "center";
@@ -605,7 +597,6 @@ body {
     font-weight: 600;
     font-size: 15px;
     color: #333333;
-
 }
 
 .overlay {
@@ -661,16 +652,13 @@ body {
     cursor: pointer;
     width: 256px;
     height: 70px;
-    font-family: 'Lato',
-        sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 18px;
-
 }
 
-
-
 /*======= finish =======*/
+
 .none-style:hover {
     text-decoration: none;
 }
@@ -692,8 +680,6 @@ body {
     color: #21b66b;
 }
 
-
-
 .port-font {
     color: #333333;
     font-family: 'Montserrat', sans-serif;
@@ -702,7 +688,6 @@ body {
 }
 
 .port-desc {
-
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -723,7 +708,6 @@ body {
     font-weight: 700;
     color: white;
     text-transform: uppercase;
-
 }
 
 .expert-desc {
@@ -739,11 +723,9 @@ body {
     background-color: white;
     color: #0bb5a3;
     border-radius: 23px;
-    font-family: 'Montserrat',
-        sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     line-height: 15px;
-
 }
 
 .text-font-exe {
@@ -752,14 +734,12 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
-
 #touch {
     background-image: url('../../Images/touch-banner.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 
 .touch-title {
     text-transform: uppercase;
@@ -804,7 +784,6 @@ body {
     color: white;
     background-color: #0bb5a3 !important;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 #footer {
@@ -818,8 +797,7 @@ body {
 }
 
 .footer-font {
-    font-family: 'Myriad-Pro-Light_31642',
-        sans-serif;
+    font-family: 'Myriad-Pro-Light_31642', sans-serif;
     font-size: 18px;
     color: #ffffff;
 }
@@ -835,7 +813,9 @@ body {
 }
 
 /* ========================== */
+
 /* Center website */
+
 .main {
     max-width: 1140px;
     margin: auto;
@@ -846,12 +826,14 @@ body {
 }
 
 /* Add padding BETWEEN each column */
+
 .rows,
 .rows>.column {
     padding: 5px;
 }
 
 /* Create three equal columns that floats next to each other */
+
 .column {
     float: left;
     width: 33% !important;
@@ -860,6 +842,7 @@ body {
 }
 
 /* Clear floats after rows */
+
 .rows:after {
     content: "";
     display: table;
@@ -867,17 +850,16 @@ body {
 }
 
 /* The "show" class is added to the filtered elements */
+
 .show {
     display: block;
 }
-
 
 #myBtnContainer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .my-container {
     margin-top: 40px;
@@ -887,7 +869,6 @@ body {
 .slider-img {
     height: 100%;
     object-fit: contain;
-
 }
 
 #card_section .comments-spaces {
@@ -895,38 +876,37 @@ body {
     overflow: auto;
 }
 
-.card-height {
-    height: 73vh;
-}
-
 /* width */
+
 #card_section .comments-spaces::-webkit-scrollbar {
     width: 5px;
 }
 
 /* Track */
+
 #card_section .comments-spaces::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px #161618;
     border-radius: 20px;
 }
 
 /* Handle */
+
 #card_section .comments-spaces::-webkit-scrollbar-thumb {
     background: #161618;
     border-radius: 20px;
 }
 
 /* Handle on hover */
+
 #card_section .comments-spaces::-webkit-scrollbar-thumb:hover {
     background: #161618;
 }
 
-
 /*================== Service Section Styling =================*/
 
-
 /*================ Media Query ===============*/
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1441px) {
     .slider-desc {
         font-size: 23px;
     }
@@ -936,9 +916,83 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+    .slider-desc {
+        font-size: 23px;
+    }
+
+    .mainheading {
+        font-size: 38px;
+    }
+
+    .touch-title {
+        font-size: 39px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .rows {
+        margin: 10px 0;
+    }
+
+    .expert-font {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .service-bg {
+        padding: 0px;
+    }
+
+    .mainheading {
+        font-size: 30px;
+    }
+
+    .mt-75 {
+        margin-top: 0 !important;
+    }
+
+    .column {
+        width: 50% !important;
+    }
+
+    .mt-110 {
+        margin-top: 47px;
+    }
+
+    .service-font {
+        font-size: 30px;
+    }
+
+    .port-font {
+
+        font-size: 30px;
+    }
+
+    .get-font {
+        font-size: 36px;
+    }
+
+    .ser-font {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 769px) {
     .slider-desc {
         font-size: 14px;
+    }
+
+    .service-bg {
+        padding: 0px;
+    }
+
+    .my-pill {
+        background-color: #e6e5e5;
+        width: 122px;
     }
 
     .portfolio-section {
@@ -1035,7 +1089,7 @@ body {
     }
 
     .media-pt-90 {
-        padding-top: 90px;
+        padding-top: 40px;
     }
 
     .card-body {
@@ -1046,7 +1100,7 @@ body {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     .slider-desc {
         font-size: 14px;
     }
@@ -1145,7 +1199,7 @@ body {
     }
 
     .media-pt-90 {
-        padding-top: 90px;
+        padding-top: 0px;
     }
 
     .card-body {
@@ -1153,6 +1207,10 @@ body {
         padding-right: 0rem !important;
         padding-bottom: 0rem !important;
         padding-left: 0rem !important;
+    }
+
+    .column {
+        width: 100% !important;
     }
 }
 
@@ -1259,7 +1317,7 @@ body {
     }
 
     .media-pt-90 {
-        padding-top: 90px;
+        padding-top: 0px;
     }
 
     .card-body {
@@ -1277,7 +1335,7 @@ body {
     } */
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .slider-desc {
         font-size: 14px;
     }
@@ -1380,7 +1438,7 @@ body {
     }
 
     .media-pt-90 {
-        padding-top: 90px;
+        padding-top: 0px;
     }
 
     .card-body {
@@ -1389,9 +1447,16 @@ body {
         padding-bottom: 0rem !important;
         padding-left: 0rem !important;
     }
+
+    .my-pill {
+        width: 78px;
+        margin: 2px;
+        height: 34px;
+        font-size: 10px;
+    }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     .slider-desc {
         font-size: 14px;
     }
@@ -1498,7 +1563,7 @@ body {
     }
 
     .media-pt-90 {
-        padding-top: 90px;
+        padding-top: 0px;
     }
 
     .card-body {
@@ -1507,10 +1572,12 @@ body {
         padding-bottom: 0rem !important;
         padding-left: 0rem !important;
     }
-
 }
 
 /*==================== Media Query For Land Scape Mode =====================*/
+
+@media screen and (max-width: 1367px) and (orientation: landscape) {}
+
 @media screen and (max-width: 1024px) and (orientation: landscape) {
     .slider-desc {
         font-size: 23px;
@@ -1525,7 +1592,7 @@ body {
     }
 }
 
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 824px) and (orientation: landscape) {
     .mt-165 {
         margin-top: 70px;
     }
@@ -1536,10 +1603,6 @@ body {
 
     .slider-desc {
         font-size: 14px;
-    }
-
-    .mainheading {
-        font-size: 25px;
     }
 
     .slider-pera-text {
@@ -1620,22 +1683,15 @@ body {
     }
 
     .media-pt-90 {
-        padding-top: 90px;
+        padding-top: 00px;
     }
 
     .card-body {
-        padding-top: 0rem !important;
-        padding-right: 0rem !important;
-        padding-bottom: 0rem !important;
-        padding-left: 0rem !important;
+        padding: 0rem !important;
     }
 
-    .portfolio-section {
-        width: 31%;
-        float: left;
-        padding: 0;
-        position: relative;
-
+    .mainheading {
+        font-size: 30px !important;
     }
 }
 
@@ -1651,6 +1707,10 @@ body {
         position: relative;
         text-align: center;
     }
+
+    .media-sing-mt {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
@@ -1665,9 +1725,13 @@ body {
         position: relative;
         text-align: center;
     }
+
+    .service-bg {
+        padding: 9px;
+    }
 }
 
-@media screen and (max-width: 731px) and (orientation: landscape) {
+@media screen and (max-width: 732px) and (orientation: landscape) {
     .mt-165 {
         margin-top: 70px;
     }
